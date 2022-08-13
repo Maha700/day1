@@ -1,0 +1,260 @@
+
+b{
+    color: brown;
+    background-color: yellow;
+}
+.container{
+   width:700px;
+   height:100px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-direction: row;
+   border: 1px solid;
+}
+.flex1{
+    width:50px;
+    height: 50px;
+    background-color: cadetblue;
+    border: 1px solid black;
+}
+.container1{
+    width:300px;
+    height:300px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items: center;
+    border: 1px solid;
+ }
+ .flex2{
+     width:50px;
+     height: 50px;
+     background-color: cadetblue;
+     border: 1px solid black;
+
+ }
+ .container3{
+    width:200px;
+    height:200px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    border: 1px solid;
+ }
+ .flex{
+     width:50px;
+     height: 50px;
+     background-color: cadetblue;
+     border: 1px solid black;
+
+ }
+ .container4{
+    width:200px;
+    height:200px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    border: 1px solid;
+ }
+ .flex4{
+     width:50px;
+     height: 50px;
+     background-color: cadetblue;
+     border: 1px solid black;
+ }
+#position{
+    width:100px;
+    height:100px;
+    background-color: brown;
+    left: 100px;
+    position: relative;
+ }
+ .absolute{
+    width:50px;
+    height:50px;
+    background-color:blue;
+    left:50%;
+    position: absolute;
+ }
+.grid-container{
+    width:500px;
+    height:200px;
+    display: grid;
+    grid-template-columns:100px 100px;
+    border: 1px solid;
+}
+.griditems{
+    width:50px;
+    height: 50px;
+    background-color: rgb(3, 28, 29);
+    border: 1px solid black;
+}
+.idex{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    position: absolute;
+    left:20px;
+    z-index: 5;
+    border: 1px solid;
+}
+.idex1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(136, 108, 164);
+    position: absolute;
+    z-index:3;
+    border: 1px solid;
+}
+.size{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(115, 85, 220);
+    padding: 2px;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+.size1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(226, 112, 186);
+    padding: 2px;
+    border: 1px solid;
+    box-sizing: content-box;
+    margin-top: 10px;
+}
+.animate{
+    width:60px;
+    height: 60px;
+    background-color: crimson;
+    border: 1px solid;
+    animation:  animate alternate 1s 7 4s ;
+}
+@keyframes animate{
+    0%{
+        transform: skewX(20deg);
+    }
+    100%{
+        transform: skewX(-20deg);
+    }
+}
+.grid-container1{
+    width:500px;
+    height:300px;
+    display: grid;
+    border: 1px solid;
+    grid-template-columns: auto auto auto;
+    gap:10px;
+
+    
+}
+.griditems1{
+    background-color: rgb(178, 230, 232);
+    border: 1px solid black; 
+    padding: 30px;
+    grid-row: 1/span 2;
+}
+
+.griditems2{
+    background-color: burlywood;
+    border: 1px solid black;
+    padding: 30px;
+
+}
+.griditems3{
+    background-color: yellowgreen;
+    border: 1px solid black;
+    padding: 30px;
+
+}
+.griditems4{
+    background-color: royalblue;
+    border: 1px solid black;
+    padding: 30px;
+
+}
+.grid-container2{
+    width:500px;
+    height:300px;
+    display: grid;
+    border: 1px solid;
+    grid-template-columns: auto auto auto;
+    gap:10px;
+
+    
+}
+.items1{
+    background-color: rgb(178, 230, 232);
+    border: 1px solid black; 
+    padding: 30px;
+    grid-column: 1/span 2;
+}
+
+.items2{
+    background-color: burlywood;
+    border: 1px solid black;
+    padding: 30px;
+
+}
+.items3{
+    background-color: yellowgreen;
+    border: 1px solid black;
+    padding: 30px;
+
+}
+.items4{
+    background-color: royalblue;
+    border: 1px solid black;
+    padding: 30px;
+
+}
+.grid-container4{
+    width:500px;
+    height:150px;
+    display: grid;
+    border: 1px solid;
+    grid-template-columns: auto auto;
+    gap:10px;
+}
+.items11{
+    width:50px;
+    height: 20px;
+    background-color: rgb(178, 230, 232);
+    border: 1px solid black; 
+    padding: 30px;
+    visibility: hidden;
+}
+
+.items21{
+    width:50px;
+    height: 30px;
+    background-color: burlywood;
+    border: 1px solid black;
+    padding: 30px;
+
+}
+.grid-container5{
+    width:500px;
+    height:150px;
+    display: grid;
+    border: 1px solid;
+    gap:10px;
+}
+.items31{
+    width:50px;
+    height: 30px;
+    background-color: rgb(178, 230, 232);
+    border: 1px solid black; 
+    padding: 30px;
+    display: none;
+}
+
+.items41{
+    width:50px;
+    height: 30px;
+    background-color: burlywood;
+    border: 1px solid black;
+    padding: 30px;
+
+}

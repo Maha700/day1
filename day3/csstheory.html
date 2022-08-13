@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h6 {
+        font-family: "Times New Roman", Times, serif;
+        color: darkblue;
+      }
+    </style>
+    <link rel="stylesheet" href="./music.css" />
+  </head>
+  <body>
+    <h3>1.Difference between flex row and column</h3>
+    <p>
+      Flex direction are the css property based on the concept of flex.flex
+      direction can be applied for parent tag and not only for parent element
+      but also applied for child tag for the parent element.
+    </p>
+    <p>
+      The main axis is defined by flex-direction property and the cross axis
+      runs perpendicular to it.
+    </p>
+    <p>
+      If flex direction:row,then the flexible items are displayed in the main
+      axis along with the text.
+    </p>
+    <div class="container">
+      Example:
+      <div class="flex1">1</div>
+      <div class="flex1">2</div>
+      <div class="flex1">3</div>
+      <div class="flex1">4</div>
+    </div>
+
+    <p>
+      If flex direction:column,then the flexible items are displayed in the
+      cross axis along with the text.
+    </p>
+    <div class="container1">
+      Example:
+      <div class="flex2">1</div>
+      <div class="flex2">2</div>
+      <div class="flex2">3</div>
+      <div class="flex2">4</div>
+    </div>
+    <h3>2.Explain inline , internal and external stylesheet</h3>
+    <p>There are three styles used in CSS. They are</p>
+    <ol>
+      <li>Inline style</li>
+      <li>Internal style</li>
+      <li>External style</li>
+    </ol>
+    <p>Inline-It allows the style attribute placed inside an HTML element.</p>
+    <p style="font-weight: bolder">Example:bold</p>
+    <p>
+      Internal-It allows the style attribute placed inside the head tag of an
+      HTML element.
+    </p>
+    <h6>Example:Internal css</h6>
+    <p>
+      External- It works by linking a .css file in a head tag and it containing
+      all the CSS property to an HTML document.
+    </p>
+    <b>Example:Music</b>
+    <h3>3.Justify-content allows you to do what?</h3>
+    <p>
+      Justify-content ia a subproperty of athe flex box container.It defines how
+      the browser distributes space between and around content items along the
+      main-axis of a flex container, and the inline axis of a grid container.
+    </p>
+    <h5>Example:</h5>
+    <div class="container3">
+      space-evenly
+      <div class="flex">1</div>
+      <div class="flex">2</div>
+      <div class="flex">3</div>
+    </div>
+    <br />
+    <div class="container4">
+      space-between
+      <div class="flex4">1</div>
+      <div class="flex4">2</div>
+      <div class="flex4">3</div>
+    </div>
+    <p>flex-start is the default property on the Justify-content.</p>
+    <h3>4.Difference between absolute and relative positioning</h3>
+    <p>
+      <strong>Relative positioning: </strong>Setting the top, right, bottom, and left
+      properties of an element with position: relative; property will cause it
+      to adjust from its normal position.The other objects or elements will not
+      fill the gap.
+    </p>
+    <h6>Example:</h6>
+    <div id="position"></div>
+    <p>
+      <strong>Absolute positioning:</strong>An element with position: absolute; will cause
+      it to adjust its position with respect to its parent.If no parent is
+      present, then it uses the document body as parent.
+    </p>
+    <div class="absolute"></div>
+    <br /><br /><br />
+    <h3>5.What is grid-template-columns used for?</h3>
+    <p>
+      The grid-template-columns is used to set the number of columns and size of
+      the columns of the grid layout.
+    </p>
+    <div class="grid-container">
+      Example:
+      <div class="griditems">1</div>
+      <div class="griditems">2</div>
+      <div class="griditems">3</div>
+    </div>
+    <h3>6.What is the z-index in CSS?</h3>
+    <p>
+      The z-index property specifies the stack order of an element. An element
+      with greater stack order is always in front of an element with a lower
+      stack order.
+    </p>
+    <h6>Example:</h6>
+    <div class="idex">1</div>
+    <div class="idex1">2</div>
+    <br /><br /><br /><br /><br />
+    <h3>7.What is the difference between padding and margin?</h3>
+    <p>
+      Margin is the space outside the border.It allow to set negative values or
+      any float number.We can set the margin to auto.Styling of an element such
+      as background color does not affect the margin.
+    </p>
+    <p>
+      Padding is space inside the element border.It does not allow negative
+      values. We cannot set the padding to auto.Padding is affected by the
+      styling of an element, such as background color.
+    </p>
+    <h3>8.What is box sizing?</h3>
+    <p>
+      The box-sizing property defines how the width and height of an element are
+      calculated.
+    </p>
+    <h5>Example:</h5>
+    <div class="size">1</div>
+    <div class="size1">2</div>
+    <br />
+    <h3>9.What is animation delay?</h3>
+    <p>
+      The animation-delay CSS property specifies the amount of time to wait from
+      applying the animation to an element before beginning to perform the
+      animation.
+    </p>
+    <div class="animate"></div>
+    <h3>10.Which property you will use to merge cells vertically in grid?</h3>
+    <p>Grid row will merge cells vertically in grid layout.</p>
+    <h5>Example</h5>
+    <div class="grid-container1">
+      <div class="griditems1">1</div>
+      <div class="griditems2">2</div>
+      <div class="griditems3">3</div>
+      <div class="griditems4">4</div>
+    </div>
+    <h3>11.Which property you will use to merge cells horizontally in grid?</h3>
+    <p>Grid-column will merge cells horizontallyin grid layout.</p>
+    <div class="grid-container2">
+      <div class="items1">1</div>
+      <div class="items2">2</div>
+      <div class="items3">3</div>
+      <div class="items4">4</div>
+    </div>
+    <h3>12.Explain CSS box model</h3>
+    <p>
+      The CSS box model is a container that contains multiple properties
+      including borders, margin, padding, and the content itself. It is used to
+      create the design and layout of web pages. It can be used as a toolkit for
+      customizing the layout of different elements.
+    </p>
+    <h3>
+      13.what is the difference between display none and visibility hidden?
+    </h3>
+    <p>
+      Visibility:hidden- It remove the element from the rendered dom but
+      preserve the spaces it takes.
+    </p>
+    <div class="grid-container4">
+      <div class="items11">1</div>
+      <div class="items21">2</div>
+    </div>
+    <p>
+      Display:none-It remove the element from the rendered dom doesnot preserve
+      the spaces it takes.
+    </p>
+    <h5>Example:</h5>
+    <div class="grid-container5">
+      <div class="items31">3</div>
+      <div class="items41">4</div>
+    </div>
+  </body>
+</html>

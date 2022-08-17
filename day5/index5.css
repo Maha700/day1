@@ -1,0 +1,59 @@
+*{
+    line-height: 2;
+}
+
+div b{
+    color:#ff0000;
+}
+.child>p{
+    background-color: blue;
+    color:white;
+}
+section + p{
+    color:brown;
+}
+div ~ b{
+    color:aquamarine;
+}
+
+.pseudo{
+    width:100px;
+    height:100px;
+    border:1px solid black;
+    background-color:yellowgreen ;
+    margin:20px;
+}
+#para1::first-letter{
+    color:red;
+}
+#para1::first-line{
+    color:blue;
+    text-decoration: underline;
+    font-size: 22px;
+}
+.pseudo:hover{
+    width:200px;
+    height: 200px;
+    background-color: aliceblue;
+}
+span::before{
+    content:"The"
+}
+span::after{
+    content:"world"
+}
+span::selection{
+    background-color: yellow;
+    color:red;
+}
+a:link{
+    color:red;
+    text-decoration: none;
+}
+a:visited{
+    color:hotpink;
+}
+a:active{
+    font-size: large;
+    color: black;
+}

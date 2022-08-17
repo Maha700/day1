@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index5.css">
+</head>
+<body>
+    <h3>1.What are CSS combinators </h3>
+    <p>CSS combinators is something that explain the relationship betweens the selectors.</p>
+    <p>There are four types of  combinators.They are</p>
+    <ol>
+        <li>Space selectors - " "</li>
+        <li>child selectors- ">"</li>
+        <li>adjacent sibling selectors - "+"</li>
+        <li>all adjacent sibling selectors - "~"</li>
+    </ol>
+    <p>1.The space selectors selects descendants from the elements</p>
+    <div>
+        <b>lorem</b>
+        <b>hello</b>
+        <b>heello</b>
+    </div>
+    <p>2. The child selectors selects all the elements from children of an specified elements</p>
+    <div class="child">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, fugiat.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <p> 3.The adjacent sibling selectors selects immediate to next siblings.</p>
+    <section> 
+        <b>Lorem ipsum dolor sit.</b>
+    </section>
+      <p>lorem</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>4.The all adjacent sibling selectors selects all elements that are next siblings of a specified element.</p>
+    <div>
+        <span>hello</span>
+    </div>
+    <b>hello</b> <br>
+    <b>hello1</b> <br>
+    <b>hello3</b> <br>
+    <h3>2.What are pseudo selectors in CSS</h3>
+    <p>pseudo selectors is used to define specific part of an element</p>
+    <div class="pseudo">box</div>
+    <p id="para1">Lorem ipsum dolor sit amet.</p>
+    <span>hello</span> <br>
+    <span>pretend</span> <br>
+    <a href="#">click Here</a>
+</body>
+</html>
